@@ -21,4 +21,5 @@ project(tx_sample C ASM)
 # add_subdirectory(${CORE_SRC_DIR} core_src)
 add_subdirectory(lib)
 add_subdirectory(app)
+add_subdirectory(tx_linux)
 
