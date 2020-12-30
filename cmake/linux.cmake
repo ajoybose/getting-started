@@ -12,7 +12,7 @@ set(SIZE                size)
 set(THREADX_ARCH "linux")
 set(THREADX_TOOLCHAIN "gnu")
 
-set(LINUX_FLAGS "-g -pthread")
+set(LINUX_FLAGS "-g -pthread -m32")
 
 set(CMAKE_C_FLAGS   "${LINUX_FLAGS} " CACHE INTERNAL "c compiler flags")
 set(CMAKE_CXX_FLAGS "${LINUX_FLAGS} -fno-rtti -fno-exceptions" CACHE INTERNAL "cxx compiler flags")

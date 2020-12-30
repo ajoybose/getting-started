@@ -5,6 +5,10 @@
 ![](https://github.com/azure-rtos/getting-started/workflows/STM32L4_L4+/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/Markdown%20links/badge.svg)
 
+# Getting Started with Azure RTOS and Azure IoT - This Fork
+
+Along with the forked code that's unchanged, files have been reproduced with minor changes from the [threadx](https://github.com/azure-rtos/threadx) and [netxduo](https://github.com/azure-rtos/netxduo) repos, as well as the NXP sub-directory, to other sub-directories herein, with the objective of using cmake to build samples for execution on Linux.
+
 # Getting Started with Azure RTOS and Azure IoT
 
 This Getting Started guides shows device developers how to start working with Azure RTOS. Each guide will step through from installation of the required toolchain, to connecting the device to Azure IoT Hub using IoT Plug and Play.
