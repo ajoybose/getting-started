@@ -1,13 +1,17 @@
+# Getting Started with Azure RTOS and Azure IoT - This Fork
+
+Along with the forked code that's unchanged, files have been reproduced with changes from the [threadx](https://github.com/azure-rtos/threadx) and [netxduo](https://github.com/azure-rtos/netxduo) repos, as well as the NXP sub-directory, to other sub-directories herein, with the objective of using cmake to build samples for execution on Linux.
+
+The linux sub-directory contains the cmake buildable threadx sample and one netxduo sample. It also includes a netxduo sample where I have removed the RAM driver and replaced it with PCAP, so it communicates over the network, and linux network namespaces are used to test with a python script.
+
+Everything else is the same as it was when I forked it around Christmas Eve 2020.
+
 ![](https://github.com/azure-rtos/getting-started/workflows/ATSAME54-XPRO/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/AZ3166/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/MIMXRT1050-EVKB/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/MIMXRT1060-EVK/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/STM32L4_L4+/badge.svg)
 ![](https://github.com/azure-rtos/getting-started/workflows/Markdown%20links/badge.svg)
-
-# Getting Started with Azure RTOS and Azure IoT - This Fork
-
-Along with the forked code that's unchanged, files have been reproduced with minor changes from the [threadx](https://github.com/azure-rtos/threadx) and [netxduo](https://github.com/azure-rtos/netxduo) repos, as well as the NXP sub-directory, to other sub-directories herein, with the objective of using cmake to build samples for execution on Linux.
 
 # Getting Started with Azure RTOS and Azure IoT
 
