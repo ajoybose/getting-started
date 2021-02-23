@@ -4,6 +4,12 @@ Along with the forked code that's unchanged, files have been reproduced with cha
 
 The linux sub-directory contains the cmake buildable threadx sample and one netxduo sample. It also includes a netxduo sample where I have removed the RAM driver and replaced it with PCAP, so it communicates over the network, and linux network namespaces are used to test with a python script.
 
+sudo apt-get install libpcap-dev
+
+sudo apt-get install gcc-multilib
+
+sudo apt-get install libcap-dev:i386 <- does not work anymore. Download the deb file from http://archive.ubuntu.com/ubuntu/pool/main/libp/libpcap/libpcap-dev_1.9.1-3_i386.deb and install.
+
 Everything else is the same as it was when I forked it around Christmas Eve 2020.
 
 ![](https://github.com/azure-rtos/getting-started/workflows/ATSAME54-XPRO/badge.svg)
