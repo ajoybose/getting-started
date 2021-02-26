@@ -196,15 +196,15 @@ UINT    status;
         thread_0_counter++;
 
         /* Print results.  */
-        printf("**** ThreadX Linux Demonstration **** (c) 1996-2020 Microsoft Corporation\n\n");
-        printf("           thread 0 events sent:          %lu\n", thread_0_counter);
-        printf("           thread 1 messages sent:        %lu\n", thread_1_counter);
-        printf("           thread 2 messages received:    %lu\n", thread_2_counter);
-        printf("           thread 3 obtained semaphore:   %lu\n", thread_3_counter);
-        printf("           thread 4 obtained semaphore:   %lu\n", thread_4_counter);
-        printf("           thread 5 events received:      %lu\n", thread_5_counter);
-        printf("           thread 6 mutex obtained:       %lu\n", thread_6_counter);
-        printf("           thread 7 mutex obtained:       %lu\n\n", thread_7_counter);
+        printf("**** ThreadX Linux Demonstration **** (c) 1996-2020 Microsoft Corporation\r\n\r\n");
+        printf("           thread 0 events sent:          %lu\r\n", thread_0_counter);
+        printf("           thread 1 messages sent:        %lu\r\n", thread_1_counter);
+        printf("           thread 2 messages received:    %lu\r\n", thread_2_counter);
+        printf("           thread 3 obtained semaphore:   %lu\r\n", thread_3_counter);
+        printf("           thread 4 obtained semaphore:   %lu\r\n", thread_4_counter);
+        printf("           thread 5 events received:      %lu\r\n", thread_5_counter);
+        printf("           thread 6 mutex obtained:       %lu\r\n", thread_6_counter);
+        printf("           thread 7 mutex obtained:       %lu\r\n\r\n", thread_7_counter);
 
         /* Sleep for 10 ticks.  */
         tx_thread_sleep(10);
